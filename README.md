@@ -1,6 +1,7 @@
 ## Rescorla-Wagner-Model
 
 Vn+1 = Vn α(Δt) * (LnVn)
+
 Where:
 
 - Vn is the expected number of likes for post n
