@@ -1,6 +1,6 @@
 ## Rescorla-Wagner-Model
 
-Vn+1 = Vn α(Δt) * (Ln - Vn)
+Vn+1 = Vn + α(Δt) * (Ln - Vn)
 
 Where:
 
@@ -16,6 +16,9 @@ The key assumptions of the Rescorla-Wagner model are:
 - The learning rate determines the speed of updating the associative strength.
 
 These assumptions could apply to social media behavior - users may have expectations about how many likes they'll receive for a post, and they may update these expectations based on the actual likes they receive. Over time, they may learn to adapt their posting behavior to maximize likes.
+
+This equation says that to calculate the user's new expectation for the next post, we start with their current expectation, and then we add to it the prediction error (the difference between actual and expected likes) multiplied by the learning rate (which depends on the time since the last post).
+This equation represents a model of how a user's expectation of likes might be updated over time as they make posts and receive likes on a social media platform.
 
 ## Limitations
 - The Rescorla-Wagner model assumes a single stimulus and outcome. In reality, social media behavior is more complex - users may learn associations for different types of posts, and likes may not be the only relevant outcome (e.g., comments, shares).
