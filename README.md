@@ -1,4 +1,13 @@
 ## Rescorla-Wagner-Model
+
+Vn+1 = Vn α(Δt) * (LnVn)
+Where:
+
+- Vn is the expected number of likes for post n
+- Vn+1 is the expected number of likes for the next post
+- α(Δt) is the learning rate as a function of the time between post n and the previous post
+- Ln is the actual number of likes received for post n
+
 The key assumptions of the Rescorla-Wagner model are:
 
 - Learning occurs through prediction errors (the difference between expected and actual outcomes).
