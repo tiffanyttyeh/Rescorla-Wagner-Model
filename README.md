@@ -15,6 +15,8 @@ The key assumptions of the Rescorla-Wagner model are:
 -  The associative strength (expectation of the outcome) is updated incrementally after each trial.
 - The learning rate determines the speed of updating the associative strength.
 
+These assumptions could apply to social media behavior - users may have expectations about how many likes they'll receive for a post, and they may update these expectations based on the actual likes they receive. Over time, they may learn to adapt their posting behavior to maximize likes.
+
 ## Limitations
 - The Rescorla-Wagner model assumes a single stimulus and outcome. In reality, social media behavior is more complex - users may learn associations for different types of posts, and likes may not be the only relevant outcome (e.g., comments, shares).
 - The model assumes a linear relationship between the prediction error and the update to the associative strength. This may not hold for social media behavior - for example, there may be diminishing returns to increasing likes beyond a certain point.
