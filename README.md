@@ -1,6 +1,6 @@
 ## Rescorla-Wagner-Model
 
-Vn+1 = Vn α(Δt) * (LnVn)
+Vn+1 = Vn α(Δt) * (Ln - Vn)
 
 Where:
 
